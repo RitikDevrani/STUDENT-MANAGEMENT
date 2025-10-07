@@ -57,50 +57,69 @@ Node.js
 
 Steps
 
-Clone the Repository:
+1. Clone the Repository:
 
 git clone https://github.com/RitikDevrani/STUDENT-MANAGEMENT.git
 cd STUDENT-MANAGEMENT
 
 
-Install PHP Dependencies:
+
+
+2.Install PHP Dependencies:
 
 composer install
 
 
-Set Up Environment File:
+
+
+3.Set Up Environment File:
 
 cp .env.example .env
 
 
-Update the .env file with your database credentials.
 
-Generate Application Key:
+
+4.Update the .env file with your database credentials.
+
+
+
+
+5.Generate Application Key:
 
 php artisan key:generate
 
 
-Run Migrations:
+
+
+6.Run Migrations:
 
 php artisan migrate
 
 
-Install Frontend Dependencies:
+
+
+7.Install Frontend Dependencies:
 
 npm install
 
 
-Build Assets:
+
+
+8.Build Assets:
 
 npm run dev
 
 
-Serve the Application:
+
+
+9.Serve the Application:
 
 php artisan serve
 
 
 The application will be accessible at http://localhost:8000.
+
+
 
 🎨 UI/UX Design
 
