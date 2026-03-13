@@ -90,9 +90,6 @@ cp .env.example .env
 
 4 Update the .env file with your database credentials.
 
-
-
-
 5 Generate Application Key:
 
 php artisan key:generate
@@ -113,7 +110,9 @@ npm run dev
 
 php artisan serve
 
-The application will be accessible at http://localhost:8000.
+The application will be accessible at 
+
+    http://localhost:8000.
 
 
 ## UI/UX Design
